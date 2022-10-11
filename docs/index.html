@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Watch</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/svg" href="aclock.svg" />
+    <script type="module" src="index.js"></script>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Type</legend>
+        <form action="#">
+            <select name="option">
+                <option value="0">In Page</option>
+                <option value="1">Digital</option>
+                <option value="2">Analog</option>
+            </select>
+        </form>
+    </fieldset>
+    <p id="raw"></p>
+    <p><object data="dclock.svg" type="image/svg+xml" id="dclock" width="400" height="400"></object></p>
+    <p><object data="aclock.svg" type="image/svg+xml" id="aclock" width="400" height="400"></object></p>
+</body>
+
+</html>
