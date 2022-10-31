@@ -1,5 +1,5 @@
 fieldset {
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -12,4 +12,9 @@ p {
   font-size: xx-large;
   font-weight: bold;
   display: block;
+}
+
+object {
+  width: clamp(330px, 50vmin, 400px);
+  height: 350px;
 }
